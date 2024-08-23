@@ -1,1 +1,6 @@
-# ADPL
+- 👋 Hi, I’m Tushar Barhate
+- 👀 I’m interested in ...Cyber Security Engineering
+- 🌱 I’m currently learning ...C++ language in Cyber Security Engineering
+- 💞️ I’m looking to collaborate on ...C++ Programing
+- 📫 How to reach me ...tusharbarhatecpp
+- ⚡ Fun fact:..Nickname:..Tanshu,..Critical Thinking,..Smart Work
