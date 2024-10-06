@@ -1,0 +1,46 @@
+<html>
+<body>
+    <!-- Page 1: Student Information Page -->
+    <div class="page" id="page1">
+        <h1>Student <br> Information Page</h1>
+        <p>Content about student information goes here.</p>
+        <button class="next" onclick="goToPage(2)">Next</button>
+    </div>
+
+    <!-- Page 2: Cyber Security Department Information -->
+    <div class="page" id="page2">
+    
+        <h1>Cyber Security <br> Department Information</h1>
+        <p>Details about the Cyber Security Department go here.</p>
+        <button class="prev" onclick="goToPage(1)">Previous</button>
+        <button class="next" onclick="goToPage(3)">Next</button>
+    </div>
+
+    <!-- Page 3: Department Activity Page -->
+    <div class="page" id="page3">
+        <h1>Department <br> Activity</h1>
+        <p>Information about department activities goes here.</p>
+        <button class="prev" onclick="goToPage(2)">Previous</button>
+        <button class="next" onclick="goToPage(4)">Next</button>
+    </div>
+
+    <!-- Page 4: Sport Activity Page -->
+    <div class="page" id="page4">
+        <h1>Sports <br> Activity Page</h1>
+        <p>Details about sport activities go here.</p>
+        <button class="home" onclick="goToPage(1)">Home</button>
+       
+    </div>
+
+    <script>
+        function goToPage(pageNum) {
+            const pages = document.querySelectorAll('.page');
+            pages.forEach(page => page.style.display = 'none');
+            document.getElementById('page' + pageNum).style.display = 'block';
+        }
+        
+        // Show the first page by default
+        goToPage(1);
+    </script>
+</body>
+</html>
